@@ -1,24 +1,17 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.16.0/.schema/devbox.schema.json",
-  "packages": [
-    "php81@latest",
-    "php81Extensions.gd@latest",
-    "php81Extensions.mysqli@latest",
-    "php81Extensions.pdo_mysql@latest",
-    "php81Extensions.mbstring@latest",
-    "php81Extensions.xml@latest",
-    "php81Extensions.curl@latest",
-    "php81Extensions.zip@latest",
-    "php81Extensions.intl@latest"
-  ],
-  "shell": {
-    "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
+    "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.16.0/.schema/devbox.schema.json",
+    "packages": [
+      "php@7.4",
+      "nginx"
     ],
-    "scripts": {
-      "test": [
-        "echo \"Error: no test specified\" && exit 1"
-      ]
+    "shell": {
+      "init_hook": [
+        "echo 'Welcome to devbox!' > /dev/null"
+      ],
+      "scripts": {
+        "test": [
+          "echo \"Error: no test specified\" && exit 1"
+        ]
+      }
     }
   }
-}

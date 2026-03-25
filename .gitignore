@@ -53,3 +53,11 @@ plugin/vchamilo/templates/*
 web/
 node_modules
 yarn.lock
+
+nginx/
+php-fpm/
+devbox.d/
+app/cache/*
+app/courses/*
+app/upload/*
+docker-compose.yml
